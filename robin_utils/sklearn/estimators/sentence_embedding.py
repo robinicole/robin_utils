@@ -1,6 +1,6 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 from sentence_transformers import SentenceTransformer
-class SentenceTransformerWrapper(BaseEstimator, TransformerMixin):
+class HFSentenceEmbeding(BaseEstimator, TransformerMixin):
     """
     Wrapper for SentenceTransformer to be use it in sklearn pipeline
     """
