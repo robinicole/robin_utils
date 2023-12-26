@@ -1,6 +1,4 @@
-from sklearn.base import BaseEstimator
-from typing import List
-class HyperparaMeter:
-    name : str 
-    models : List[BaseEstimator]
+"""
+This folder should contain best default hyperparameters for various sklearn models
+"""
 
